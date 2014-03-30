@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-theme-quickstart",
+	"library": "./lib/theme.js",
+	"hooks": [
+		{
+			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas", "callbacked": true
+		}
+	],
+	"scripts": [
+		"lib/client.js"
+	]
+}
