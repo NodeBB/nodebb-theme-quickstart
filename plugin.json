@@ -7,6 +7,10 @@
 		}
 	],
 	"scripts": [
-		"lib/client.js"
+		"lib/client.js",
+		"../nodebb-theme-persona/lib/persona.js",
+		"../nodebb-theme-persona/lib/modules/nprogress.js",
+		"../nodebb-theme-persona/lib/modules/autohidingnavbar.min.js",
+		"../nodebb-theme-persona/lib/modules/slideout.min.js"
 	]
 }
