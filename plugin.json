@@ -8,6 +8,8 @@
 	],
 	"scripts": [
 		"lib/client.js",
-		"../nodebb-theme-lavender/lib/lavender.js"
+		"../nodebb-theme-lavender/static/lib/lavender.js",
+		"../nodebb-theme-lavender/static/vendor/masonry.js",
+		"../nodebb-theme-lavender/static/vendor/imagesLoaded.js"
 	]
 }
