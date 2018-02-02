@@ -10,9 +10,6 @@
 		},
 		{
 			"hook": "filter:config.get", "method": "getConfig"
-		},
-		{
-			"hook": "static:assets.prepare", "method": "modifyLessVar"
 		}
 	],
 	"scripts": [
