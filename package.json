@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-theme-quickstart",
-  "version": "0.0.0",
+  "name": "nodebb-theme-trumpetboards",
+  "version": "0.0.1",
   "description": "Enter a description here",
   "main": "theme.less",
   "keywords": [
