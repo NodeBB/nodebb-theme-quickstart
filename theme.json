@@ -1,6 +1,6 @@
 {
-    "id": "nodebb-theme-quickstart",
-    "name": "My Theme Name",
-    "description": "Enter a description here",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart"
+    "id": "nodebb-theme-trumpetboards",
+    "name": "TrumpetBoards.com Theme",
+    "description": "Custom theme",
+    "url": "https://github.com/abtrumpet/nodebb-theme-trumpetboards"
 }
