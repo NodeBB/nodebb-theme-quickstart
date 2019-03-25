@@ -11,13 +11,6 @@
 			<!-- BEGIN categories -->
 			<!-- IMPORT partials/categories/item.tpl -->
 			<!-- END categories -->
-		</ul>
-	</div>
-	<div widget-area="sidebar" class="col-lg-3 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
-		<!-- BEGIN widgets.sidebar -->
-		{{widgets.sidebar.html}}
-		<!-- END widgets.sidebar -->
-	</div>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- default-footer-ad -->
 <ins class="adsbygoogle"
@@ -29,6 +22,13 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+		</ul>
+	</div>
+	<div widget-area="sidebar" class="col-lg-3 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
+		<!-- BEGIN widgets.sidebar -->
+		{{widgets.sidebar.html}}
+		<!-- END widgets.sidebar -->
+	</div>
 </div>
 <div widget-area="footer">
 	<!-- BEGIN widgets.footer -->
