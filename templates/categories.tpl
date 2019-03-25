@@ -11,9 +11,9 @@
 			<!-- BEGIN categories -->
 			<!-- IMPORT partials/categories/item.tpl -->
 			<!-- END categories -->
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- default-footer-ad -->
       <li class="row clearfix">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- default-footer-ad -->
         <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-4991943914781208"
