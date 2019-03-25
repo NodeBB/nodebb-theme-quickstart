@@ -1,4 +1,3 @@
-		</div><!-- /.container#content -->
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- default-footer-ad -->
 <ins class="adsbygoogle"
@@ -10,6 +9,7 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+		</div><!-- /.container#content -->
 	</main>
 	<!-- IF !isSpider -->
 	<div class="topic-search hidden">
