@@ -1,14 +1,3 @@
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- default-footer-ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4991943914781208"
-     data-ad-slot="2729554940"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 		</div><!-- /.container#content -->
 	</main>
 	<!-- IF !isSpider -->
