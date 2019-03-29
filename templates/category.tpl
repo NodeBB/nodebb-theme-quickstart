@@ -11,9 +11,6 @@
 		<!-- IF children.length --><hr class="hidden-xs"/><!-- ENDIF children.length -->
 
 		<div class="clearfix">
-			<!-- IF privileges.topics:create -->
-			<a href="{config.relative_path}/compose?cid={cid}" component="category/post" id="new_topic" class="btn btn-primary" data-ajaxify="false" role="button">[[category:new_topic_button]]</a>
-			<!-- ELSE -->
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <!-- default-footer-ad -->
       <ins class="adsbygoogle"
@@ -25,6 +22,9 @@
       <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
+			<!-- IF privileges.topics:create -->
+			<a href="{config.relative_path}/compose?cid={cid}" component="category/post" id="new_topic" class="btn btn-primary" data-ajaxify="false" role="button">[[category:new_topic_button]]</a>
+			<!-- ELSE -->
 				<!-- IF !loggedIn -->
 				<a component="category/post/guest" href="{config.relative_path}/login" class="btn btn-primary">[[category:guest-login-post]]</a>
 				<!-- ENDIF !loggedIn -->
