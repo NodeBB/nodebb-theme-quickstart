@@ -40,6 +40,16 @@ Also, add a screenshot! Take a picture of your theme, and save it as "screenshot
 "screenshot": "screenshot.png"
 ```
 
+### How to Install the Child Theme
+
+```
+cd /PATH/nodebb
+./nodebb stop
+npm install https://github.com/NodeBB/nodebb-theme-quickstart
+sudo ./nodebb build
+./nodebb start
+```
+
 ### Credits
 
 Material theme by [pichalite](https://github.com/pichalite).
