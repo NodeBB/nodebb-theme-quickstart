@@ -4,6 +4,9 @@
 	"hooks": [
 		{
 			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
+		},
+		{
+			"hook": "filter:categories.build", "method": "getCategories"
 		}
 	],
 	"scripts": [
