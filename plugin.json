@@ -8,9 +8,9 @@
 	],
 	"scripts": [
 		"public/client.js",
-		"../nodebb-theme-persona/lib/persona.js",
-		"../nodebb-theme-persona/lib/modules/autohidingnavbar.min.js",
-		"../nodebb-theme-persona/lib/modules/quickreply.js"
+		"../nodebb-theme-persona/public/persona.js",
+		"../nodebb-theme-persona/public/modules/autohidingnavbar.min.js",
+		"../nodebb-theme-persona/public/modules/quickreply.js"
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"
