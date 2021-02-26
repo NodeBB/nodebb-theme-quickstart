@@ -4,5 +4,29 @@
   "description": "Enter a description here",
   "main": "theme.less",
   "keywords": [],
-  "license": "MIT"
+  "license": "MIT",
+  "husky": {
+      "hooks": {
+          "pre-commit": "npx lint-staged",
+          "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS"
+      }
+  },
+  "lint-staged": {
+      "*.js": [
+          "eslint --fix",
+          "git add"
+      ]
+  },
+  "dependencies": {
+    "bent": "^7.3.12"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-angular": "11.0.0",
+    "eslint": "7.18.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "husky": "5.0.9",
+    "lint-staged": "10.5.4"
+  }
 }
