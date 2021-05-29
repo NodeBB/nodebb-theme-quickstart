@@ -1,6 +1,6 @@
 {
-    "id": "nodebb-theme-quickstart",
-    "name": "My Theme Name",
-    "description": "Enter a description here",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart"
+    "id": "nodebb-theme-nhp-theme",
+    "name": "NHP Custom Theme",
+    "description": "This Is Custom Theme For NHP Project",
+    "url": "https://github.com/nodebb/nodebb-theme-nhp-theme"
 }
