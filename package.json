@@ -11,6 +11,18 @@
           "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS"
       }
   },
+  "author": {
+    "name": "Ma'en Abdulhadi",
+    "email": "M.Abdelhadi.ext@tahaluf.ae",
+    "url": "/"
+},
+"repository": {
+    "type": "git",
+    "url": "https://github.com/MaenAbdulhadi91/nodebb-theme-nhp-theme"
+},
+"bugs": {
+    "url": "https://github.com/MaenAbdulhadi91/nodebb-theme-nhp-theme/issues"
+},
   "lint-staged": {
       "*.js": [
           "eslint --fix",
