@@ -1,7 +1,7 @@
 {
-  "name": "nodebb-theme-quickstart",
+  "name": "nodebb-theme-nhp-theme",
   "version": "0.1.0",
-  "description": "Enter a description here",
+  "description": "Custom Theme Of NHP",
   "main": "theme.less",
   "keywords": [],
   "license": "MIT",
