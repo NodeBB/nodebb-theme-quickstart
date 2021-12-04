@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 	Hey there!
 
@@ -12,6 +14,6 @@
 	  });
 */
 
-$(document).ready(function() {
+$(document).ready(function () {
 	// Your code goes here
 });
