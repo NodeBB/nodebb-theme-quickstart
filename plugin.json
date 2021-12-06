@@ -9,7 +9,7 @@
 	"scripts": [
 		"public/client.js",
 		"../nodebb-theme-persona/public/persona.js",
-		"../nodebb-theme-persona/public/modules/autohidingnavbar.min.js",
+		"../nodebb-theme-persona/public/modules/autohidingnavbar.js",
 		"../nodebb-theme-persona/public/modules/quickreply.js"
 	],
 	"modules": {
