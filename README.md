@@ -1,10 +1,8 @@
 # Quickstart Theme for NodeBB
 
-This repository contains all of the preparatory work for a theme based off of the [Persona theme](https://github.com/NodeBB/nodebb-theme-persona). If you'd like to base your theme off another supported theme instead, switch to the appropriate branch:
+This repository contains all of the preparatory work for a theme based off of the [Harmony theme](https://github.com/NodeBB/nodebb-theme-harmony). If you'd like to base your theme off another supported theme instead, switch to the appropriate branch:
 
 * [Lavender](https://github.com/NodeBB/nodebb-theme-lavender)
-* [Vanilla](https://github.com/NodeBB/nodebb-theme-vanilla)
-* [Material](https://github.com/pichalite/nodebb-theme-material)
 
 Fork it to create your own theme based off of it!
 
