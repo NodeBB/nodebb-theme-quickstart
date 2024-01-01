@@ -2,7 +2,7 @@
     "name": "nodebb-theme-quickstart",
     "version": "0.1.0",
     "description": "Enter a description here",
-    "main": "theme.less",
+    "main": "lib/theme.js",
     "keywords": [],
     "license": "MIT",
     "husky": {
