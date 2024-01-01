@@ -7,6 +7,7 @@
 		"public/client.js",
 		"../nodebb-theme-harmony/public/harmony.js"
 	],
+	"templates": "templates",
 	"modules": {
 
 	}
