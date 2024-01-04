@@ -1,7 +1,14 @@
 {
 	"id": "nodebb-theme-quickstart",
 	"hooks": [
-		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" }
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" },
+		{ "hook": "filter:config.get", "method": "getThemeConfig" },
+		{ "hook": "filter:settings.get", "method": "getAdminSettings"},
+		{ "hook": "filter:user.saveSettings", "method": "saveUserSettings" },
+		{ "hook": "filter:user.profileMenu", "method": "addProfileItem" },
+		{ "hook": "filter:middleware.renderHeader", "method": "filterMiddlewareRenderHeader" }
 	],
 	"scripts": [
 		"public/client.js",
@@ -9,6 +16,11 @@
 	],
 	"templates": "templates",
 	"modules": {
-
+		"../admin/plugins/theme-quickstart.js": "../nodebb-theme-harmony/public/admin.js",
+		"../client/account/theme.js": "../nodebb-theme-harmony/public/settings.js"
+	},
+	"staticDirs": {
+		"inter": "node_modules/@fontsource/inter/files",
+		"poppins": "node_modules/@fontsource/poppins/files"
 	}
 }
