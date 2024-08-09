@@ -28,7 +28,9 @@
 			<a class="link link-hover" href="https://docs.openbeta.io/how-to-contribute/overview">Dev onboarding</a>
 		</nav>
 		<nav class="col-md-2 d-flex flex-column gap-2">
-			<header class="footer-title">Social</header><a class="link link-hover"
+			<header class="footer-title">Social</header>
+			<a href="/">Forum (this site!)</a>
+			<a class="link link-hover"
 				href="https://discord.gg/a6vuuTQxS8">Discord
 				chat</a><a class="link link-hover" href="https://www.instagram.com/openbetaproject/">Instagram</a><a
 				class="link link-hover" href="https://www.linkedin.com/company/openbetahq/">LinkedIn</a><a
@@ -46,7 +48,7 @@
 		<nav class="col-md-2 d-flex flex-column gap-2">
 			<header class="footer-title">Source code</header><a class="link link-hover"
 				href="https://github.com/OpenBeta/">OpenBeta on GitHub</a><a class="link link-hover"
-				href="https://github.com/OpenBeta/open-tacos">Climb catalog (this site!)</a><a class="link link-hover"
+				href="https://github.com/OpenBeta/open-tacos">Climb catalog</a><a class="link link-hover"
 				href="https://github.com/OpenBeta/openbeta-graphql">GraphQL API</a><a class="link link-hover"
 				href="https://github.com/OpenBeta/sandbag">Sandbag library</a>
 			<a class="link link-hover" href="https://github.com/OpenBeta/docs.openbeta.io">Docs site</a>
