@@ -1,0 +1,32 @@
+footer {
+	background: $black;
+	color: $white;
+	padding: 2.5rem;
+
+	> aside {
+		a {
+			border: 2px solid $red;
+			padding-top: .75em;
+			padding-bottom: .75em;
+		}
+
+		svg {
+			fill: $red;
+			height: 48px;
+			width: 48px;
+		}
+	}
+
+	nav {
+		.footer-title {
+			margin-bottom: .5rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			opacity: .5;
+		}
+
+		a {
+			color: $white;
+		}
+	}
+}

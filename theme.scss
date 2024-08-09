@@ -1,4 +1,6 @@
 // override harmony font-path
-$font-path: "./plugins/nodebb-theme-quickstart";
+$font-path: "./plugins/nodebb-theme-openbeta";
 
 @import "../nodebb-theme-harmony/theme";
+@import "scss/fonts";
+@import "scss/footer";

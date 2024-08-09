@@ -1,5 +1,5 @@
 {
-    "name": "nodebb-theme-quickstart",
+    "name": "nodebb-theme-openbeta",
     "version": "0.1.0",
     "description": "Enter a description here",
     "main": "lib/theme.js",
