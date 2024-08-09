@@ -1,7 +1,7 @@
 {
     "name": "nodebb-theme-openbeta",
-    "version": "0.1.0",
-    "description": "Enter a description here",
+    "version": "1.0.0",
+    "description": "OpenBeta theme for NodeBB",
     "main": "lib/theme.js",
     "keywords": [],
     "license": "MIT",
@@ -17,8 +17,7 @@
             "git add"
         ]
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "@commitlint/cli": "11.0.0",
         "@commitlint/config-angular": "11.0.0",
