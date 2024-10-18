@@ -5,7 +5,7 @@
 	</div>
 
 	<!-- From OpenBeta -->
-	<footer>
+	<footer class="row">
 		<aside class="col-md-4">
 			<div class="py-3 ps-2">
 				<a class="rounded-circle d-inline-block ps-2 pe-3" href="https://openbeta.io">
