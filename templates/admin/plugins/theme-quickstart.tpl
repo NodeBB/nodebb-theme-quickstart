@@ -6,46 +6,46 @@
 			<form role="form" class="harmony-settings">
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="enableQuickReply" name="enableQuickReply" />
-					<label for="enableQuickReply" class="form-check-label">[[themes/harmony:settings.enableQuickReply]]</label>
+					<label for="enableQuickReply" class="form-check-label">{{tx("themes/harmony:settings.enableQuickReply")}}</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="enableBreadcrumbs" name="enableBreadcrumbs" />
-					<label for="enableBreadcrumbs" class="form-check-label">[[themes/harmony:settings.enableBreadcrumbs]]</label>
+					<label for="enableBreadcrumbs" class="form-check-label">{{tx("themes/harmony:settings.enableBreadcrumbs")}}</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="centerHeaderElements" name="centerHeaderElements" />
-					<label for="centerHeaderElements" class="form-check-label">[[themes/harmony:settings.centerHeaderElements]]</label>
+					<label for="centerHeaderElements" class="form-check-label">{{tx("themes/harmony:settings.centerHeaderElements")}}</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="mobileTopicTeasers" name="mobileTopicTeasers" />
-					<label for="mobileTopicTeasers" class="form-check-label">[[themes/harmony:settings.mobileTopicTeasers]]</label>
+					<label for="mobileTopicTeasers" class="form-check-label">{{tx("themes/harmony:settings.mobileTopicTeasers")}}</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="stickyToolbar" name="stickyToolbar" />
 					<div for="stickyToolbar" class="form-check-label">
-						[[themes/harmony:settings.stickyToolbar]]
+						{{tx("themes/harmony:settings.stickyToolbar")}}
 						<p class="form-text">
-							[[themes/harmony:settings.stickyToolbar.help]]
+							{{tx("themes/harmony:settings.stickyToolbar.help")}}
 						</p>
 					</div>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="autohideBottombar" name="autohideBottombar" />
 					<div for="autohideBottombar" class="form-check-label">
-						[[themes/harmony:settings.autohideBottombar]]
+						{{tx("themes/harmony:settings.autohideBottombar")}}
 						<p class="form-text">
-							[[themes/harmony:settings.autohideBottombar.help]]
+							{{tx("themes/harmony:settings.autohideBottombar.help")}}
 						</p>
 					</div>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="openSidebars" name="openSidebars" />
-					<label for="openSidebars" class="form-check-label">[[themes/harmony:settings.openSidebars]]</label>
+					<label for="openSidebars" class="form-check-label">{{tx("themes/harmony:settings.openSidebars")}}</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="chatModals" name="chatModals" />
 					<div for="chatModals" class="form-check-label">
-						[[themes/harmony:settings.chatModals]]
+						{{tx("themes/harmony:settings.chatModals")}}
 					</div>
 				</div>
 			</form>

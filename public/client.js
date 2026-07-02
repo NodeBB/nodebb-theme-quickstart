@@ -11,6 +11,7 @@
 	  $(window).on('action:ajaxify.end', function(ev, data) {
 		var url = data.url;
 		console.log('I am now at: ' + url);
+		console.log('Data for this page is :', ajaxify.data);
 	  });
 */
 

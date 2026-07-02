@@ -5,6 +5,9 @@
     "main": "lib/theme.js",
     "keywords": [],
     "license": "MIT",
+    "scripts": {
+        "lint": "eslint ."
+    },
     "husky": {
         "hooks": {
             "pre-commit": "npx lint-staged",
@@ -20,16 +23,14 @@
     "dependencies": {
     },
     "devDependencies": {
-        "@commitlint/cli": "11.0.0",
-        "@commitlint/config-angular": "11.0.0",
-        "eslint": "8.x",
-        "eslint-config-airbnb-base": "14.2.1",
-        "eslint-config-nodebb": "0.1.1",
-        "eslint-plugin-import": "2.x",
-        "husky": "5.0.9",
-        "lint-staged": "10.5.4"
+        "@commitlint/cli": "21.2.0",
+        "@commitlint/config-angular": "21.2.0",
+        "eslint": "10.6.0",
+        "eslint-config-nodebb": "2.0.3",
+        "husky": "9.1.7",
+        "lint-staged": "17.0.8"
     },
     "nbbpm": {
-        "compatibility": "^4.0.0"
-    },
+        "compatibility": "^4.14.0"
+    }
 }
